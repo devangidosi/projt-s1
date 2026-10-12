@@ -1,0 +1,427 @@
+
+h1{
+    text-align: center;
+    color:#810436;
+     font-size:52px;
+     margin-top: 80px;
+     margin-bottom: 55px;
+}
+
+.back{
+    margin: 10px 0 20px 20px;
+    padding: 8px 18px;
+    background-color: violet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.title{
+    text-shadow: 1px 1px 2px #aaa;
+    padding: 10px;
+    text-align: center;
+    color:#8b2f5b;
+   letter-spacing: 1px;
+}
+
+h2 {
+color: rgba(231, 105, 126, 0.925);
+text-align: center;
+}
+
+p {
+    text-align: center;
+    color:black;
+    font-size: 24px;
+    margin-bottom: 60px;
+}
+
+
+
+.top form{
+   display: inline-block;
+   margin:  0 10px;
+  
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 70px;
+     margin-bottom: 30px;
+     background-color: #810436;
+     box-shadow: 0 0 12px rgb(240, 11, 232);
+     
+}
+
+.top a{
+    display:block;
+    padding: 8px 15px;
+    color:black;
+    text-decoration: none !important;
+    font-size: 30px;
+    background-color: #F6C1D1;
+    
+}
+
+.top a:hover{
+    background-color:#810436;
+    color:white;
+}
+
+.food-container{
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    gap: 80px;
+    justify-content: center;
+   
+}
+
+.food{
+    width: 250px;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid #d66;
+    border-radius: 15px;
+    background-color: #fff5f5;
+     box-shadow:0 0 12px #d80f5f;
+}
+
+
+.food img{
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.food button{
+    padding: 8px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #d66;
+    color: white;
+}
+
+.recipe-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 70px;
+}
+
+.recipe-card{
+    width: 180px;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #c77d9b;
+    border-radius: 12px;
+    background-color: #fff5fa;
+    box-shadow: 0 0px 12px #ab052c;
+}
+
+.recipe-card img{
+    width: 140px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.recipe-card h2{
+    font-size: 14px;
+    color: #8b2f5b;
+}
+
+.recipe-card p{
+    font-size: 16px;
+    line-height: 1.4;
+    color: #555;
+}
+
+.view{
+    display: inline-block;
+    background-color: #d66a91;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.indian{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    height: 60px;
+    background-color:violet;
+    margin-bottom: 40px;
+    color: #000;
+    box-shadow: 0 0 12px rgba(255,182,193,0.8);
+}
+
+.indian form{
+    margin: 0;
+    gap: 20px;
+}
+
+.indian a{
+    display: block;
+    padding: 8px 12px;
+    color: #3B2416;
+    font-size: 24px;
+    text-decoration: none;
+    background-color: #F8D7E8;
+    margin: 0 10px;
+}
+
+.indian a:hover{
+    background-color: #E6A8C5;
+    color: white;
+}
+
+.cake{
+    width: 70%;
+    margin:30px auto;
+    line-height: 1.6;
+    border: 2px solid rgb(134, 13, 134);
+    background-color: rgb(245, 177, 245);
+    border-radius: 10px;
+    text-align: justify;
+    padding: 20px;
+
+}
+
+.h1{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    color:white;
+    background-color: rgb(245, 177, 245);
+    box-shadow:0 0 12px rgba(255,182,193,0.8);
+}
+.recipe {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+}
+.description{
+    flex-basis: 100%;
+    margin-top: 15px;
+    padding: 20px;
+    border: 2px solid rgb(134, 13, 134);
+    background-color: rgb(245, 177, 245);
+    border-radius: 10px;
+    line-height: 1.6; 
+    width: 100%;
+    text-align: justify;
+    box-sizing: border-box;
+    font-size: 24px;
+    box-shadow:0 0 12px #810436;
+    }
+.heart{
+    color: purple;
+    font-size:15px ;
+    top: 10px;
+    left: 15px;
+}
+
+
+.details{
+    width: 45%;
+
+}
+
+.instruction{
+    margin-top: 120px;
+    background-color: rgb(248, 154, 248);
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.ingredients{
+    background-color: rgb(248, 154, 248);
+    display:inline-block;
+    padding: 5px 10px;
+}
+
+
+.details p{
+    margin-top: 20px;
+}
+
+.image{
+    
+    width: 45%;
+}
+
+
+.chocolate{
+    width: 50%;
+}
+
+.chocolate img{
+    width: 100%;
+    height: 750px;
+
+}
+
+form{
+    display: inline-block;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.para{
+    font-size: 17px;
+   
+}
+
+/* sign in page ka css */
+
+.signin{
+    width: 400px;
+    margin: 60px auto;
+    padding: 35px;
+    background-color: white;
+    border: 2px solid;
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow:0 0 12px #810436;
+}
+
+.signin h1{
+    color: #c2185b;
+    margin-bottom: 10px;
+}
+
+.signin p{
+    color: #666;
+}
+
+.signin label{
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+    color: #555;
+    font-weight:bold ;
+}
+
+.signin input{
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.error{
+    display: none;
+    color: red !important;
+    font-size: 13px;
+    text-align: left;
+}
+
+.signin button{
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #d63384;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: #c2185b;
+}
+
+.home{
+    display: block;
+    margin-top: 15px;
+    color: rgb(44, 5, 136);
+    text-decoration: none;
+}
+
+/* contact us */
+
+.contact-box{
+    width: 600px;
+    margin: 60px auto;
+    padding: 35px;
+    background-color: white;
+    border: 2px solid;
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow:0 0 12px #810436;
+}
+
+.contact-box h1,h2{
+     color: #c2185b;
+    margin-bottom: 10px;
+}
+
+.contact-box p{
+     color: #666;
+}
+
+.contact-info{
+    margin: 15px 0;
+}
+
+.blur{
+    filter: blur(5px);
+    cursor: pointer;
+}
+
+.blur.clear{
+     filter: blur(0);
+}
+
+.contact-box input,textarea{
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.contact-box label{
+    display: block;
+    text-align:left;
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+.contact-box button{
+     width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #d63384;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contact-box.home{
+    display: block;
+    margin-top: 18px;
+    color: pink;
+    text-decoration: none;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="signin">
+        <h1>My Favourite Reciepe</h1>
+        <h2>Sign In</h2>
+        <form action="" >
+            <label for="">Email</label>
+            <input type="mail" name="" id="" placeholder="Enter your email" required>
+            <label for="">password</label>
+            <input type="password" name="" id="password" placeholder="Enter your password" oninput="checkPassword()" required>
+            <p class="error" id="errormessage">Incorrect password ! please use only letters and number.</p>
+            <button type="submit">Sign In</button>
+            <a href="project.html" class="home">Back To Home</a>
+        </form>
+       
+    </div>
+    <script>
+        function checkPassword(){
+           
+            let password=document.getElementById("password").value;
+            let error=document.getElementById("errormessage");
+
+            if(/[^a-zA-Z0-9]/.test(password)) {
+                    error.style.display="block";
+                } else{
+                     error.style.display="none";
+                }
+            
+        }
+    </script>
+</body>
+</html>
